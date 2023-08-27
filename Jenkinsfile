@@ -22,10 +22,10 @@ pipeline {
            }
         
             steps {
-                step {
+               
                  sh 'terraform init'
                  sh 'terraform apply -auto-approve'
-                }
+               
             }
         }
         
